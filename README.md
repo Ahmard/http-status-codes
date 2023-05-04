@@ -21,10 +21,10 @@ $sc->value;
 $desc = $sc->describe();
 
 // Get Status Code  =>  "201"
-$desc->describe()->code;
+$desc->code;
 
 // Get Status Code Title  => "Created"
-$desc->describe()->title;
+$desc->title;
 ```
 
 You can also get description of a given status code, the description is copied from Wikipedia.
