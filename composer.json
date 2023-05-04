@@ -1,0 +1,20 @@
+{
+    "name": "ahmard/http-status-codes",
+    "description": "Http Status Code Enums",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HttpStatusCodes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmard",
+            "email": "ahmardy@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
